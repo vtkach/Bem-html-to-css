@@ -1,46 +1,12 @@
-.loyalty-offers {
+.header {
   }
-  .loyalty-offers__title{
+  .header__title{
   }
-  .loyalty-offers__error{
-  }
-  .loyalty-offers__error--gold{
-  }
-  .loyalty-offers__error--aurum{
-  }
-  .loyalty-offers__spinner{
-  }
-  .loyalty-offers__spinner--super{
+  .header__menu-items{
     }
-    .loyalty-offers__spinner-animation{
+    .header__menu-item{
     }
-  .loyalty-offers__no-offers{
+    .header__menu-item--selected{
     }
-    .loyalty-offers__no-offers-message{
+    .header__menu-item--highlighted{
     }
-  .loyalty-offers__wrapper-after-load{
-    }
-    .loyalty-offers__description{
-    }
-    .loyalty-offers__activate-all-offers{
-    }
-    .loyalty-offers__offers-list{
-    }
-    .loyalty-offers__offers-list--super-red{
-      }
-      .loyalty-offers__offers-item{
-      }
-      .loyalty-offers__offers-item--red{
-      }
-      .loyalty-offers__offers-item--white{
-      }
-      .loyalty-offers__offers-item--yellow{
-      }
-      .loyalty-offers__offers-item--green{
-      }
-      .loyalty-offers__offers-item--some-other{
-      }
-    .loyalty-offers__bottom-block{
-      }
-      .loyalty-offers__note{
-      }

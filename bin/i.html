@@ -1,57 +1,9 @@
-<div class="loyalty-offers" data-is-author-mode="${headerBean.authorMode}">
-    <h1 class="loyalty-offers__title">My Offers</h1>
-
-    <div class="loyalty-offers__error error hidden">
-        <div class="error-text"></div>
-    </div>
-
-    <div class="loyalty-offers__error loyalty-offers__error--gold">
-        <div class="error-text"></div>
-    </div>
-
-    <div class="loyalty-offers__error loyalty-offers__error--aurum">
-        <div class="error-text"></div>
-    </div>
-
-    <div class="loyalty-offers__spinner hidden">
-        <img class="loyalty-offers__spinner-animation" src="/etc/designs/canadian-tire/images/search-results/sr-product-search-ajax/ajax-loader.gif" />
-    </div>
-
-    <div class="loyalty-offers__spinner loyalty-offers__spinner--super hidden">
-        <img class="loyalty-offers__spinner-animation" src="/etc/designs/canadian-tire/images/search-results/sr-product-search-ajax/ajax-loader.gif" />
-    </div>
-
-    <div class="loyalty-offers__no-offers hidden">
-        <div class="loyalty-offers__no-offers-message">
-            We are working on some exciting new offers for you. Please check again soon.
-        </div>
-    </div>
-
-    <div class="loyalty-offers__wrapper-after-load hidden">
-        <div class="loyalty-offers__description">
-            <cq:include path="lyOffersDescription" resourceType="foundation/components/iparsys" />
-        </div>
-
-        <a class="loyalty-offers__activate-all-offers white_buttton_red_arrow--shot" href="#">Activate All Offers</a>
-        <div class="clearfix"></div>
-        <ul class="loyalty-offers__offers-list">
-            <li class="loyalty-offers__offers-item"></li>
-            <li class="loyalty-offers__offers-item--red"></li>
-            <li class="loyalty-offers__offers-item--white"></li>
-        </ul>
-        <ul class="loyalty-offers__offers-list">
-            <li class="loyalty-offers__offers-item--yellow"></li>
-            <li class="loyalty-offers__offers-item--green"></li>
-            <li class="loyalty-offers__offers-item--some-other"></li>
-        </ul>
-        <ul class="loyalty-offers__offers-list--super-red"></ul>
-        <div class="loyalty-offers__bottom-block">
-            <div class="loyalty-offers__note">
-                <cq:include path="lyOffersBottomNote" resourceType="foundation/components/iparsys" />
-            </div>
-
-            <a class="loyalty-offers__activate-all-offers white_buttton_red_arrow--shot web-analytics-custom-link" data-custom-link='{"linkName":"Loyalty_MyCTwithLoyalty_MyOffers_ActivateAll"}' href="#">Activate All Offers</a>
-        </div>
-    </div>
+<div class="header">
+  <div class="header__title">EPAM</div>
+  <ul class="header__menu-items">
+    <li class="header__menu-item"></li>
+    <li class="header__menu-item--selected"></li>
+    <li class="header__menu-item--highlighted"></li>
+  </ul>
+  <img class="header_logo" src="/path_to_image"/>
 </div>
-
