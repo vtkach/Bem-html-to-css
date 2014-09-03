@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var path = require('path');
+var pkg = require('../package.json');
+var htmlToCss = require('../');
+
+var paths = [ process.cwd() ];
+var options = {};
+
+program
+  .version(pkg.version)
+  .usage('[options] [dir]')
+  .option('-o, --output [string]', 'Css Output')
+  .parse(process.argv);
+
+if (program.args.length) {
+  options.htmlPath = path.join(__dirname, program.args[0]);
+}
+
+if (program.output) {
+  options.cssOutput = path.join(__dirname, program.output);
+}
+
+htmlToCss(options);

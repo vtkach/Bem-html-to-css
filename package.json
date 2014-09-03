@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "crxde-pipe",
+  "version": "0.0.1",
+  "main": "./lib/parser",
+  "bin": {
+    "BEM-html-to-css": "./bin/BEM-html-to-css"
+  },
+  "dependencies": {
+    "htmlparser": "*",
+    "commander": "^2.2.0"
+  },
+  "devDependencies": {
+  }
+}
